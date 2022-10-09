@@ -4,7 +4,6 @@
 - I love china 🇨🇳  But It's not about political parties
 
 
-  -  CVE-2022-37861
 
 <!---
 ox01024/ox01024 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
