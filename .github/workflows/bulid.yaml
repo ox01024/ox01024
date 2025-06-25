@@ -1,0 +1,32 @@
+name: Build README
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Update README
+      run: |
+        python feed.py
+    - name: Commit changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git diff
+        git config --local user.email "52460705+ox01024@users.noreply.github.com"
+        git config --local user.name "Waff1e Bot"
+        git pull
+        git add -A
+        git commit -m "Updated README.md" || exit 0
+        git push
