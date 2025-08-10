@@ -9,11 +9,11 @@ I love china 🇨🇳  But It's not about political parties
 #### 📎 [Not Only Security Blog](https://not-only-security.pages.dev/)
 
 <!-- blog starts -->
+- [GPT5 容易被忽略的部分之 自定义工具](https://not-only-security.pages.dev/posts/customtool/) 2025-08-09 14:34:26
 - [Gemini Cli  Code ing](https://not-only-security.pages.dev/posts/geminiclicodeing/) 2025-08-09 12:38:06
 - [D-CIPHER Paper Read](https://not-only-security.pages.dev/posts/d-cipher_paperread/) 2025-05-24 21:36:01
 - [国家级断电断网事件测量](https://not-only-security.pages.dev/posts/national_power_and_internet_outage_measurement/) 2025-05-11 00:18:46
 - [CVE-2024-10252 Dify 沙盒代码注入沙盒逃逸漏洞分析](https://not-only-security.pages.dev/posts/dify-sandbox-cve-2024-10252/) 2025-01-04 15:56:55
-- [Vulnhuntr 源码分析](https://not-only-security.pages.dev/posts/vulnhuntr/) 2024-12-21 21:16:52
 
 <!-- blog ends -->
 
